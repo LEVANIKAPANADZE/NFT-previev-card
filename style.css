@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d192c;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", serif;
+}
+
+.container {
+  width: 327px;
+  box-shadow: 0px 25px 50px 0px #00000018;
+  border-radius: 15px;
+  background-color: #15263f;
+  overflow: hidden;
+  padding: 24px;
+}
+
+.img1 {
+  height: auto;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.text {
+  margin-top: 24px;
+}
+
+.title {
+  width: 278px;
+  font-weight: 600;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.paragraph {
+  margin-top: 12px;
+  color: #8bacd9;
+  width: 278px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.avatar {
+  width: 33px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.left {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ETH {
+  font-weight: 600;
+  font-size: 15px;
+  color: #00fff8;
+  margin-left: 6.48px;
+}
+
+.days {
+  color: #8bacd9;
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 7.7px;
+}
+
+.line {
+  background-color: #2e405a;
+  width: 100%;
+  margin-top: 16px;
+  height: 1px;
+}
+
+.clock-container,
+.eth-container,
+.avatarAndText {
+  display: flex;
+  align-items: center;
+  gap: 1.6px;
+}
+
+.avatarAndText {
+  margin-top: 16px;
+  gap: 5px;
+}
+
+.wern {
+  color: #ffffff;
+}
+
+.Creation {
+  color: #8bacd9;
+  margin-left: 5px;
+}
+
+.eye {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 350px;
+    padding: 24px;
+  }
+
+  .img1 {
+    border-radius: 8px;
+  }
+
+  .title {
+    width: 302px;
+    line-height: 27.72px;
+  }
+
+  .paragraph {
+    margin-top: 16px;
+    width: 302px;
+    line-height: 26px;
+  }
+
+  .left {
+    margin-top: 24px;
+  }
+
+  .ETH {
+    font-size: 16px;
+  }
+
+  .days {
+    font-size: 16px;
+  }
+
+  .line {
+    width: 100%;
+    margin-top: 24px;
+    height: 1px;
+  }
+
+  .avatarAndText {
+    gap: 7px;
+  }
+
+  .eye {
+    display: flex;
+  }
+
+  .image-box:hover .overlay {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .overlay {
+    width: 302px;
+    height: 302px;
+    background: rgba(0, 255, 248, 50%);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    display: none;
+  }
+
+  .image-box {
+    position: relative;
+  }
+
+  .title:hover {
+    cursor: pointer;
+    color: cyan;
+  }
+
+  .wern:hover {
+    cursor: pointer;
+    color: Cyan;
+  }
+}
